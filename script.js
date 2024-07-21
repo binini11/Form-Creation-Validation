@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messages.push('Email must contain "@" and ".".');
         }
 
-        /
+        
         if (password.length < 8) {
             isValid = false;
             messages.push('Password must be at least 8 characters long.');
